@@ -1,0 +1,506 @@
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Hurricane&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    width: 100%;
+    height: 100%;
+    font-family: "Ogg";
+}
+#main{
+    width: 100vw;
+    height: 100vh;
+    /* background-color: rgb(229, 185, 131); */
+}
+#landingPage{
+    width: 100%;
+    height: 100%;
+    background-image: url(./wild_oak_collective-1758.jpg);
+    /* background-position:center ; */
+    background-position:right;
+    background-size: cover;
+    overflow: hidden;
+}
+#landingPage_side{
+    position: relative;
+    position: fixed;
+    width: 13%;
+    height: 100%;
+    /* background-color: aqua; */
+    right: -22px;
+   
+}
+#landingPage_side img{
+    width: 100%;
+    height: 103%;
+    position: absolute;
+    top: -1%;
+    
+}
+#menu{
+    width: 35%;
+    height: 42px;
+    /* background-color: brown; */
+    position: absolute;
+    top: 5%;
+    left: 35%;
+}
+#menu_bottom{
+    width: 58%;
+    height: 150px;
+    /* background-color: brown; */
+    position: absolute;
+    top: 58%;
+    left: 30%;
+}
+
+#header1{
+    width: 60%;
+    height: 50%;
+    /* background-color: blueviolet;    */
+    position: absolute;
+    top: 33%;
+    color: #ffff;
+}
+#a{
+    margin-left: 152px;
+    font-size: 50px;
+    font-weight: 500;
+}
+#b{
+    margin-left: 112px;
+    font-size: 50px;
+    font-weight: 500;
+}
+#c{
+    margin-left: 302px;
+    font-size: 65px;
+    font-weight: 500;
+    font-family: 'Hurricane', cursive;
+    /* font-style: italic; */
+}
+#line{
+    margin-top: -38px;
+    width: 279px;
+    height: 1px;
+    background-color: #ffff;
+}
+#second_page{
+    width: 100%;
+    height: 88%;
+    /* background-color: antiquewhite; */
+    background-color: #fafafa;
+    position: relative;
+}
+#intro{
+    width: 38%;
+    height: 60%;
+    background-color: blue;
+    position: absolute;
+    top: 5%;
+    right: 0;
+}
+#first{
+    width: 100%;
+    height: 100%;
+}
+#intro1{
+    width: 25%;
+    height: 70%;
+    background-color: rgb(0, 255, 64);
+    position: absolute;
+    top: 35%;
+    right: 23%;
+    border: 8px solid white;
+}
+#sec{
+    width: 100%;
+    height: 100%;
+    
+}
+#intro2{
+    width: 45%;
+    height: 70%;
+    /* background-color: rgb(187, 255, 0); */
+    position: absolute;
+    top: 25%;
+    left: 8%;
+
+}
+
+#welcome{
+    font-size: 62px;
+    font-weight: 500;
+    font-family: 'Hurricane', cursive;
+}
+#intro2 h3{
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 20px;
+}
+span{
+    top: 65px;
+    left: 110px;
+    position: absolute;
+}
+#intro2 h5{
+    font-size: 14px;
+    /* line-height: 12px; */
+    margin-top: 22px;
+    margin-bottom: 35px;
+    font-family: 'Montserrat';
+    font-weight: 300;
+}
+#third_page{
+    width: 100%;
+    height: 80%;
+    background-color: rgb(238, 204, 160);
+    background-image: url(./wild-oak-creative-140.jpg);
+    /* background-position: center; */
+    background-size: cover;
+}
+#fourth_page{
+    width: 100%;
+    height: 900px;
+    background-color: #b4aaaa;
+    position: relative;
+}
+#text_page h1{
+    font-weight: 400;
+    text-align: center;
+    top: 70px;
+    left: 30%;
+    position: absolute;
+    color: #fafafa;
+}
+#fourth_page #gallery{
+    width: 70%;
+    height:550px ;
+    /* background-color: rgb(240, 185, 119); */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#upper_gallery{
+    width: 100%;
+    height: 47%;
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: space-between;
+}
+#upper_gallery .upper1{
+    width: 31%;
+    height: 100%;
+    /* background-color: brown; */
+}
+.upper1 img{
+    width: 100%;
+    height: 100%;
+    object-position: center;
+    object-fit: cover;
+}
+#lower_gallery{
+    width: 100%;
+    height: 47%;
+    /* background-color: rgb(71, 8, 71); */
+    display: flex;
+    justify-content: space-between;
+}
+#lower_gallery .lower1{
+    width: 31%;
+    height: 100%;
+    /* background-color: rgb(22, 65, 134); */
+}
+.lower1 img{
+    width: 100%;
+    height: 100%;
+    object-position: center;
+    object-fit: cover;
+}
+#view_package{
+    padding: 20px 65px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: #fafafa;
+    bottom: 70px;
+    left: 40%;
+    position: absolute;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 2px;
+    font-family: 'Montserrat';
+    cursor: pointer;
+}
+
+#fifth_page{
+    width: 100%;
+    height: 60%;
+    background-color: #dadada;
+    position: relative;
+}
+#clint{
+    position: absolute;
+    font-size: 38px;
+    font-weight: 500;
+    text-align: center;
+    top: 42px;
+    left: 42%;
+}
+
+#fifth_page p{
+    text-align: center;
+    font-family: 'Montserrat';
+    font-weight: 300;
+    font-size: 14px;
+    position: absolute;
+    left: 28%;
+    top: 40%;
+}
+#sixth_page{
+    width: 100%;
+    height:85%;
+    background-color: #fafafa;
+    position: relative;
+}
+#sixth_img{
+    /* width: 400px; */
+    /* height: 625px; */
+    /* background-color: chartreuse; */
+    /* position: absolute; */
+    /* top: -5%; */
+    /* left: 6%; */
+}
+#sixth_img img{
+    position: absolute;
+    width: 410px;
+    height: 640px;
+    z-index: 999;
+    bottom: -40px;
+    left: 25px;
+    /* height: 100%;     */
+    /* object-fit: cover; */
+}
+#sixt_content{
+    width: 50%;
+    height: 70%;
+    /* background-color: cornflowerblue; */
+    left: 45%;
+    top: 10%;
+    position: absolute;
+    font-family: 'Montserrat';
+   
+}
+#sixt_content h4{
+    letter-spacing: 2px;
+    margin-bottom: 35px;
+    font-weight: 600;
+}
+#sixt_content p{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+}
+#my_story{
+    padding: 18px 65px;
+    background-color: transparent;
+    border: 2px solid rgb(240, 185, 119);
+    color: rgb(240, 185, 119);
+    bottom: 20px;
+    left: 0;
+    position: absolute;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+#video_page{
+    width: 100%;
+    height: 72%;
+    background-color: #b83e3e;
+    background-image: url(./mini.gif);
+    background-position:center ;
+    background-size: cover;
+    position: relative;
+}
+
+#video_page #video_page_content{
+    /* width: 400px; */
+    height: 50px;
+    /* background-color: aqua; */
+    position: absolute;
+    top: 215px;
+    left: 170px;
+}
+#video_page  #video_page_content h4{
+    color: #fafafa;
+    font-size: 18px ;
+    font-weight: 500;
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    margin-bottom:20px ;
+
+}
+#video_page  #video_page_content h1{
+    color: #fafafa;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+#vid_line{
+    width: 600px;
+    height: 2px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 70%;
+}
+
+
+
+
+
+
+
+
+#seven_page{
+    width: 100%;
+    height: 80%;
+    background-color: #dadada;
+    position: relative;
+   
+}
+#seven_gallery{
+    width: 30%;
+    height: 73%;
+    /* background-color: blue; */
+    position: absolute;
+    top: 7%;
+    left: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#seven_gallery1{
+    width: 100%;
+    height: 48%;
+    /* background-color: rgb(88, 88, 138); */
+    display: flex;
+    justify-content: space-between;
+}
+#seven_gallery1 .seven_img{
+    width: 48%;
+    height: 100%;
+    /* background-color: darkgreen; */
+}
+#seven_gallery2{
+    width: 100%;
+    height: 48%;
+    /* background-color: rgb(21, 81, 109); */
+    display: flex;
+    justify-content: space-between;
+}
+#seven_gallery2 .seven_img{
+    width: 48%;
+    height: 100%;
+    /* background-color: rgb(100, 0, 95); */
+}
+.seven_img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+#seven_follow{
+    transform: rotate(270deg);
+    position: absolute;
+    top: 150px;
+    left: 240px;
+  
+    
+}
+#seven_follow h1{
+   font-weight: 300;
+   
+}
+
+@media screen and (max-width:800px){
+    #landingPage {
+    width: 103vw;
+    height: 27vh;
+    }
+
+    #header1 {position: fixed;
+        height: 28vw;
+        width: 107vw;
+        top: 11vh;
+        margin-left: 1  vw;
+        font-size: 5vw;
+        /* color: red; */
+        
+    }
+
+    #header1 h1{
+        font-size: 5vw;
+    }
+
+    #line{
+        width: 33vw;
+        margin-top: -5vw;
+        top: 9wh;
+    }
+
+    #a{
+        margin-left: 18vw;
+    }
+    #b{
+        margin-left: 27vw;
+    }
+
+    #c{
+        margin-left: 54vw;
+        font-size: 6vw;
+    }
+    #rip{
+        display: none;
+    }
+    #menu{
+        top: 3vw;
+        left: -46vw;
+        color: white;
+    }
+
+    #landingPage_side img {
+        display: none;
+    }
+    #intro {
+        overflow: hidden;
+        width: 27vw;
+        height: 27vh;
+        background-image: url(./intro1.jpg);
+        background-position: center;
+        background-size: cover;
+        object-position: center;
+        right: -1vw;
+       
+    }
+    #first {
+        width: 60vw;
+        height: 30vh;
+    }
+
+#second_page {
+    width: 102vw;
+    height: 46vh;
+}
+#intro1{
+top: 30vw;
+    right: 29vw;}
+
+}
