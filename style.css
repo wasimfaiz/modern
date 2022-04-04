@@ -429,4 +429,80 @@ span{
    font-weight: 300;
    
 }
+#about_setion{
+    width: 40%;
+    height: 73%;
+    /* background-color: #b83e3e;    */
+    position: absolute;
+    right: 0;
+    top: 7%;
+}
+#about_top{ 
+    width: 100%;
+    height: 14%;
+    /* background-color: aquamarine; */
+    padding-left: 30px;
 
+   
+}
+#about_top h2{
+    margin-bottom: 12px;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-weight: 500;
+}
+#about_top #about_line{
+    width: 80%;
+    height: 2px;
+    background-color: rgba(0, 0, 0, 0.678);
+    bottom: 0;
+   
+}
+#all{
+   width: 100%;
+   height: 100%;
+   display: flex;
+   position: absolute;
+   align-items: flex-start;
+   justify-content: space-around;
+}
+.same{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 50%;
+    /* background-color: rgba(8, 8, 8, 0.205); */
+}
+
+.same a{
+    text-decoration: none;
+    color: black;
+    margin-top: 30px;
+    font-size: 25px;
+}
+
+#aboutimg{
+    width: 120px;
+}
+
+#about_icon{
+    color: rgba(138,104,67,1);
+    font-size: 30px;
+    position: absolute;
+    top: 80%;
+    left: 20%;
+    
+}
+#about_icon i{
+    margin-left: 22px;
+}
+#copyright{
+    bottom: 2%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 12px;
+}
